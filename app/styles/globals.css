@@ -2,26 +2,98 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Fonts */
+@font-face {
+  font-family: Geist-Bold;
+  src: url(../../public/Geist/Geist-Bold.otf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: Geist-SemiBold;
+  src: url(../../public/Geist/Geist-SemiBold.otf);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: Geist-Regular;
+  src: url(../../public/Geist/Geist-Regular.otf);
+}
+
+@font-face {
+  font-family: GeistMono-Bold;
+  src: url(../../public/GeistMono/GeistMono-Bold.otf);
+}
+
+@font-face {
+  font-family: GeistMono-SemiBold;
+  src: url(../../public/GeistMono/GeistMono-SemiBold.otf);
+}
+
+@font-face {
+  font-family: GeistMono-Regular;
+  src: url(../../public/GeistMono/GeistMono-Regular.otf);
+}
+
+/* Page scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Underline Animation */
+.nav-link-light {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link-light::before {
+  background-color: #8EAC50 /* mediumGreen */;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 0.35s ease;
+  width: 100%;
+}
+
+.nav-link-light:hover::before {
+  transform: scaleX(1);
+}
+
+.nav-link-dark {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link-dark::before {
+  background-color: #D3D04F /* lightGreen */;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+  width: auto;
+}
+
+.nav-link-dark:hover::before {
+  transform: scaleX(1);
+}
+
+/* Pattern backgrounds */
+.bg-dot-light {
+  background-image: url(../../public/bg/pattern-dot-light.svg);
+  background-repeat: repeat;
+  background-position: 50%;
+  background-size: 1.5%;
+}
+
+.dark .dark\:bg-dot-dark {
+  background-image: url(../../public/bg/pattern-dot-dark.svg);
+  background-repeat: repeat;
+  background-position: 50%;
+  background-size: 1.5%;
 }

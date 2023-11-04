@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-/* ColorHunt palette link: https://colorhunt.co/palette/e8e2dbfab95bf5564e1a3263 */
+/* ColorHunt palette link: https://colorhunt.co/palette/21336317594a8eac50d3d04f */
 
 module.exports = {
   content: [
@@ -13,24 +13,21 @@ module.exports = {
     colors: {
       "white": "#FFFFFF",
       "offWhite": "#F0F0F0",
-      "lightGrey": "#DBDBDB",
+      "lightGray": "#DBDBDB",
       "grayishBlue": "#7B879D",
-      "darkBlue": "#1F3251",
-      "themeNavy": "#1A3263",
-      "themeRed": "#F5564E",
-      "themeOrange": "#FAB95B",
-      "themeGray": "#E8E2DB",
+      "darkBlue": "#213363",
+      "darkGreen": "#17594A",
+      "mediumGreen": "#8EAC50",
+      "lightGreen": "#D3D04F",
     },
     extend: {
       fontFamily: {
-        aileronRegular: "Aileron-Regular",
-        aileronSemiBold: "Aileron-SemiBold",
-        ddinRegular: "DDin-Regular",
-        ddinBold: "DDin-Bold",
-        cardoRegular: "Cardo-Regular",
-        cardoBold: "Cardo-Bold",
-        quattrocentoRegular: "Quattrocento-Regular",
-        quattrocentoBold: "Quattrocento-Bold",
+        geistBold: "Geist-Bold",
+        geistSemiBold: "Geist-SemiBold",
+        geistRegular: "Geist-Regular",
+        geistMonoBold: "GeistMono-Bold",
+        geistMonoSemiBold: "GeistMono-SemiBold",
+        geistMonoRegular: "GeistMono-Regular",
       },
     },
     variants: {
