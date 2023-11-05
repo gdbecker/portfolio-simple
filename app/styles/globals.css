@@ -83,7 +83,7 @@ html {
   transform: scaleX(1);
 }
 
-/* Pattern backgrounds */
+/* Pattern Backgrounds */
 .bg-dot-light {
   background-image: url(../../public/bg/pattern-dot-light.svg);
   background-repeat: repeat;
@@ -96,4 +96,34 @@ html {
   background-repeat: repeat;
   background-position: 50%;
   background-size: 1.5%;
+}
+
+/* Image Backgrounds */
+.bg-contact-section {
+  background-image: url(../../public/bg/bg-salzburg.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+/* Project Thumbnails */
+.project-analytics-1 {
+  background-image: url(../../public/projects/Manufacturing\ Quickbooks\ Analysis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.project-analytics-2 {
+  background-image: url(../../public/projects/airline-delays-python-analysis-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.project-analytics-3 {
+  background-image: url(../../public/projects/Healthcare\ Private\ Practice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }

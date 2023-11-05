@@ -12,10 +12,15 @@ module.exports = {
   theme: {
     colors: {
       "white": "#FFFFFF",
-      "offWhite": "#F0F0F0",
+      // "offWhite": "#F0F0F0",
+      // "offWhite": "#FFFCF2",
+      "offWhite": "#F5F5F5",
       "lightGray": "#DBDBDB",
       "grayishBlue": "#7B879D",
-      "darkBlue": "#213363",
+      "darkBlue": {
+        100: "#213363",
+        200: "#1D2D59",
+      },
       "darkGreen": "#17594A",
       "mediumGreen": "#8EAC50",
       "lightGreen": "#D3D04F",
