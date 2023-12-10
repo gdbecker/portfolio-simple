@@ -201,7 +201,7 @@ function Home() {
       </section>
 
       <section id="work" className="flex flex-col md:flex-row">
-        <div className="flex flex-row w-full h-full p-6 text-darkBlue-100 bg-dot-light md:bg-[length:1.1%] md:flex-row md:p-20 dark:bg-dot-dark">
+        <div className="flex flex-row w-full h-full p-6 text-darkBlue-100 bg-dot-light md:bg-[length:1.1%] md:flex-row md:p-20 dark:bg-dot-dark dark:md:bg-[length:1.1%]">
           <div className="flex w-full bg-offWhite dark:bg-darkBlue-100">
             <div className="p-6 text-darkBlue-100 dark:text-offWhite">
               <h1 className="font-geistBold text-4xl mt-0 pb-2 md:text-6xl">work</h1>
@@ -382,8 +382,8 @@ function Home() {
         
       </section>
 
-      <section id="footer" className="flex flex-row h-full w-full text-center items-center justify-center text-grayishBlue text-[0.8rem] border-darkBlue-100 border-t-2 bg-white dark:text-lightGray dark:border-white dark:bg-darkBlue-200">
-        <p className="flex p-5 w-fit">Designed and developed with ❤️ by Garrett Becker. &copy; 2023 All rights reserved.</p>
+      <section id="footer" className="h-full text-center text-grayishBlue text-[0.8rem] border-darkBlue-100 border-t-2 bg-white dark:text-lightGray dark:border-white dark:bg-darkBlue-200">
+        <p className="p-5">Designed and developed with ❤️ by Garrett Becker. &copy; 2023-2024 All rights reserved.</p>
       </section>
     
     </main>     
