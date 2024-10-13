@@ -17,7 +17,8 @@
     "react": "^18",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

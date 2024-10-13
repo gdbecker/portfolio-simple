@@ -5,7 +5,8 @@ import Image from 'next/image'
 import { FaGithub } from 'react-icons/fa';
 import { BiMoviePlay } from 'react-icons/bi';
 
-import GarrettBeckerProfPic from '../public/GarrettBeckerProfPic.jpg';
+// import GarrettBeckerProfPic from '../public/GarrettBecker3.jpg';
+import GarrettBeckerProfPic from '../public/GarrettBecker1.jpg';
 
 import ReactImg from '../public/skills/react.png';
 import NextJsImg from '../public/skills/nextjs.svg';
