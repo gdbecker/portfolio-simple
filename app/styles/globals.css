@@ -98,7 +98,12 @@ html {
   background-size: 1.5%;
 }
 
-/* Image Backgrounds */
+/* ProjectSet padding when clicking on arrows */
+.carousel div {
+  scroll-margin-top: 90px;
+}
+
+/* ProjectSet Image Backgrounds */
 .bg-contact-section {
   background-image: url(../../public/bg/bg-salzburg.JPG);
   background-repeat: no-repeat;

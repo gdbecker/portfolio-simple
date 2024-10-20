@@ -1,0 +1,212 @@
+{
+  "skills": [
+    {
+      "name": "PowerBI",
+      "img": "/skills/powerbi.png",
+      "link": "https://powerbi.microsoft.com/en-us/",
+      "type": "analytics"
+    },
+    {
+      "name": "Fabric",
+      "img": "/skills/fabric.png",
+      "link": "https://www.microsoft.com/en-us/microsoft-fabric",
+      "type": "analytics"
+    },
+    {
+      "name": "dbt",
+      "img": "/skills/dbt.png",
+      "link": "https://www.getdbt.com",
+      "type": "analytics"
+    },
+    {
+      "name": "Azure",
+      "img": "/skills/azure.png",
+      "link": "https://azure.microsoft.com/en-us/",
+      "type": "analytics"
+    },
+    {
+      "name": "SqlServer",
+      "img": "/skills/sqlserver.png",
+      "link": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+      "type": "analytics"
+    },
+    {
+      "name": "Anaconda",
+      "img": "/skills/anaconda.png",
+      "link": "https://www.anaconda.com",
+      "type": "analytics"
+    },
+    {
+      "name": "Jupyter",
+      "img": "/skills/jupyter.png",
+      "link": "https://jupyter.org",
+      "type": "analytics"
+    },
+    {
+      "name": "HTML",
+      "img": "/skills/html.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "type": "frontend"
+    },
+    {
+      "name": "CSS",
+      "img": "/skills/css.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "type": "frontend"
+    },
+    {
+      "name": "JavaScript",
+      "img": "/skills/javascript.png",
+      "link": "https://www.javascript.com",
+      "type": "frontend"
+    },
+    {
+      "name": "React",
+      "img": "/skills/react.png",
+      "link": "https://react.dev",
+      "type": "frontend"
+    },
+    {
+      "name": "NextJs",
+      "img": "/skills/nextjs.svg",
+      "link": "https://nextjs.org",
+      "type": "frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "img": "/skills/bootstrap.svg",
+      "link": "https://getbootstrap.com",
+      "type": "frontend"
+    },
+    {
+      "name": "Tailwind",
+      "img": "/skills/tailwind.svg",
+      "link": "https://tailwindcss.com",
+      "type": "frontend"
+    },
+    {
+      "name": "Sass",
+      "img": "/skills/sass.png",
+      "link": "https://sass-lang.com",
+      "type": "frontend"
+    },
+    {
+      "name": "Python",
+      "img": "/skills/python.png",
+      "link": "https://www.python.org",
+      "type": "backend"
+    },
+    {
+      "name": "Django",
+      "img": "/skills/django.png",
+      "link": "https://www.djangoproject.com",
+      "type": "backend"
+    },
+    {
+      "name": "Flask",
+      "img": "/skills/flask.png",
+      "link": "https://flask.palletsprojects.com/en/2.3.x/",
+      "type": "backend"
+    },
+    {
+      "name": "NodeJs",
+      "img": "/skills/nodejs.png",
+      "link": "https://nodejs.org/en",
+      "type": "backend"
+    },
+    {
+      "name": "JWT",
+      "img": "/skills/jwt.svg",
+      "link": "https://jwt.io",
+      "type": "backend"
+    },
+    {
+      "name": "ReduxJs",
+      "img": "/skills/reduxjs.svg",
+      "link": "https://redux.js.org",
+      "type": "backend"
+    },
+    {
+      "name": "SQLite",
+      "img": "/skills/sqlite.png",
+      "link": "https://www.sqlite.org/index.html",
+      "type": "backend"
+    },
+    {
+      "name": "VSCode",
+      "img": "/skills/vscode.png",
+      "link": "https://code.visualstudio.com",
+      "type": "apps"
+    },
+    {
+      "name": "PyCharm",
+      "img": "/skills/pycharm.png",
+      "link": "https://www.jetbrains.com/pycharm/",
+      "type": "apps"
+    },
+    {
+      "name": "AdobeXD",
+      "img": "/skills/adobexd.png",
+      "link": "https://helpx.adobe.com/xd/user-guide.html",
+      "type": "apps"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
+      "img": "/skills/microsoft-associate.svg",
+      "link": "https://learn.microsoft.com/en-us/users/beckergarrett-9863/credentials/dc16da39691b2c56",
+      "type": "MicrosoftAssociate",
+      "date": "August 2024"
+    },
+    {
+      "name": "Microsoft Certified: Power BI Data Analyst Associate",
+      "img": "/skills/microsoft-associate.svg",
+      "link": "https://learn.microsoft.com/en-us/users/beckergarrett-9863/credentials/5f6262db7759bd31",
+      "type": "MicrosoftAssociate",
+      "date": "July 2022"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "img": "/skills/microsoft-fundamentals.svg",
+      "link": "https://learn.microsoft.com/en-us/users/beckergarrett-9863/credentials/345a78c18580cd56",
+      "type": "MicrosoftFundamentals",
+      "date": "June 2024"
+    },
+    {
+      "name": "Microsoft Certified: Azure Data Fundamentals",
+      "img": "/skills/microsoft-fundamentals.svg",
+      "link": "https://learn.microsoft.com/en-us/users/BeckerGarrett-9863/credentials/EFC79AADA5AA0F74",
+      "type": "MicrosoftFundamentals",
+      "date": "March 2023"
+    },
+    {
+      "name": "Microsoft Certified: Azure AI Fundamentals",
+      "img": "/skills/microsoft-fundamentals.svg",
+      "link": "https://learn.microsoft.com/en-us/users/beckergarrett-9863/credentials/284101974e4d35ba",
+      "type": "MicrosoftFundamentals",
+      "date": "August 2024"
+    },
+    {
+      "name": "dbt Fundamentals",
+      "img": "/skills/dbt.png",
+      "link": "https://credentials.getdbt.com/0eb65717-9bd6-41c1-b092-027dfcd9b1c5#gs.gd0rpm",
+      "type": "dbt",
+      "date": "August 2024"
+    },
+    {
+      "name": "Amazon Web Services Cloud Practitioner",
+      "img": "/skills/aws.svg",
+      "link": "https://www.credly.com/badges/12dd9f0b-416f-40ad-83ed-32aa610b115c",
+      "type": "AWS",
+      "date": "July 2024"
+    },
+    {
+      "name": "Google Cloud Digital Leader",
+      "img": "/skills/google-cloud-digital-leader.png",
+      "link": "https://www.credly.com/badges/0c6518c2-456b-4921-beca-276f5dc17f54/public_url",
+      "type": "GoogleCloudDigitalLeader",
+      "date": "July 2024"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { SiFrontendmentor } from 'react-icons/si';
+import { SiReplit } from 'react-icons/si';
 import { BsFillSunFill } from 'react-icons/bs';
 import { BsMoonStarsFill } from 'react-icons/bs';
 
@@ -33,9 +34,10 @@ function Navigation() {
         </a>
       </div>
 
-      <div className="flex flex-row justify-between w-[80%] mb-5 md:justify-start md:w-full md:mb-0 md:mx-3 text-darkBlue-200 dark:text-white">
+      <div className="flex flex-row justify-between w-full mb-5 md:justify-start md:w-full md:mb-0 md:mx-3 text-darkBlue-200 dark:text-white">
         <a className="text-sm font-geistMonoSemiBold mx-4 nav-link-light dark:nav-link-dark" href="#about">about</a>
         <a className="text-sm font-geistMonoSemiBold mx-4 nav-link-light dark:nav-link-dark" href="#work">work</a>
+        <a className="text-sm font-geistMonoSemiBold mx-4 nav-link-light dark:nav-link-dark" href="#skills">skills</a>
         <a className="text-sm font-geistMonoSemiBold mx-4 nav-link-light dark:nav-link-dark" href="#contact">contact</a>
       </div>
 
@@ -45,6 +47,9 @@ function Navigation() {
         </a>
         <a class="flex items-center justify-center hover:text-mediumGreen dark:hover:text-lightGreen" href="https://www.frontendmentor.io/profile/gdbecker" target="_blank" rel="noopener noreferrer">
           <SiFrontendmentor />
+        </a>
+        <a class="flex items-center justify-center hover:text-mediumGreen dark:hover:text-lightGreen" href="https://replit.com/@gdbecker" target="_blank" rel="noopener noreferrer">
+          <SiReplit />
         </a>
         <a class="flex items-center justify-center hover:text-mediumGreen dark:hover:text-lightGreen" href="https://www.linkedin.com/in/garrett-becker-923b4a106/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />

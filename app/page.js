@@ -2,33 +2,17 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
 import Image from 'next/image'
-import { FaGithub } from 'react-icons/fa';
-import { BiMoviePlay } from 'react-icons/bi';
+import GarrettBeckerProfPic from '../public/GarrettBecker2.jpg';
+import data from './json/data.json';
 
-// import GarrettBeckerProfPic from '../public/GarrettBecker3.jpg';
-import GarrettBeckerProfPic from '../public/GarrettBecker1.jpg';
-
-import ReactImg from '../public/skills/react.png';
-import NextJsImg from '../public/skills/nextjs.svg';
-import BootstrapImg from '../public/skills/bootstrap.png';
-import TailwindImg from '../public/skills/tailwind.svg';
-import SassImg from '../public/skills/sass.png';
-
-import PythonImg from '../public/skills/python.png';
-import DjangoImg from '../public/skills/django.png';
-import FlaskImg from '../public/skills/flask.png';
-import NodeJsImg from '../public/skills/nodejs.png';
-import JWTImg from '../public/skills/jwt.svg';
-import ReduxJsImg from '../public/skills/reduxjs.svg';
-import SQLiteImg from '../public/skills/sqlite.png';
-
-import AnacondaImg from '../public/skills/anaconda.png';
-import JupyterImg from '../public/skills/jupyter.png';
-import PowerBIImg from '../public/skills/powerbi.png';
-
-import VSCodeImg from '../public/skills/vscode.png';
-import PyCharmImg from '../public/skills/pycharm.png';
-import AdobeXDImg from '../public/skills/adobexd.png';
+import FamilyPic from '../public/about/Family.jpeg';
+import LEGOCustomPic from '../public/about/LEGOCustom.jpeg';
+import LEGOMandoPic from '../public/about/LEGOMando.jpeg';
+import CrossStitchPic from '../public/about/CrossStitch.jpeg';
+import DonutsPic from '../public/about/Donuts.jpeg';
+import PeppermintCookiesPic from '../public/about/PeppermintCookies.jpeg';
+import OlympicNationalParkPic from '../public/about/OlympicNationalPark.jpeg';
+import SunsetPic from '../public/about/Sunset.jpeg';
 
 import LoadingPage from './loading';
 import ProjectSet from './components/ProjectSet';
@@ -90,11 +74,10 @@ function Home() {
           <div className="bg-offWhite dark:bg-darkBlue-100">
             <div className="p-6 text-darkBlue-100 dark:text-offWhite">
               <h1 className="font-geistBold text-5xl mt-0 py-2 md:text-8xl">Garrett<br></br>Becker</h1>
-              <h2 className="font-geistMonoRegular text-2xl md:text-4xl">I build with purpose</h2>
+              <h2 className="font-geistMonoRegular text-2xl mt-2 md:text-4xl">Analytics Engineer & Developer</h2>
               <div className="py-3 border-mediumGreen border-b-2 dark:border-lightGreen"></div>
-              <p className="text-lg text-black font-geistMonoRegular leading-8 py-4 dark:text-offWhite">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Eget sit amet tellus cras adipiscing enim eu. 
+              <p className="text-xl text-black font-geistMonoRegular leading-8 py-4 dark:text-offWhite">
+                I aim to build with purpose and care for others with my work.
               </p>
             </div>
           </div>
@@ -115,89 +98,81 @@ function Home() {
           <div className="p-6">
             <h1 className="font-geistBold text-4xl mt-0 pb-2 md:text-6xl">about</h1>
             <p className="text-md text-black font-geistMonoRegular leading-8 py-4">
-              These are current tools in my repertoire I love building with, and I always enjoy experimenting and trying out new things. 
-              It's my goal to keep learning and growing as much as I can!
+              I believe that we are made to thrive and create, and when we live with intention and purpose, we bring out the best in each
+              other and empower one another to succeed.
             </p>
             <div className="py-3 border-mediumGreen border-b-2 dark:border-lightGreen"></div>
           </div>
         </div>
-        <div className="flex flex-row w-full justify-between">
-          <div className="flex flex-col px-6 h-full justify-between">
-            <div className="flex flex-row py-6 justify-center md:justify-start">
-              <h1 className="text-geistMonoBold text-md">front-end</h1>
+        <div className="flex flex-col w-full justify-between md:flex-row">
+          <div className="flex flex-col px-6 w-full h-full justify-between">
+            <div className="flex-col w-full">
+              <p className="flex w-full leading-6 py-3">
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Ultricies est ornare cubilia commodo sollicitudin faucibus non 
+                consequat arcu. Lobortis vitae gravida curabitur ligula hac. Curae habitasse morbi massa imperdiet dapibus ultrices. 
+                Ullamcorper rhoncus tempus suspendisse nunc himenaeos commodo. Adipiscing libero dictum interdum elementum; lacinia 
+                ullamcorper.
+              </p>
+              <p className="flex w-full leading-6 py-3">
+                Venenatis faucibus cras; a etiam nisi dapibus. Maximus mi in velit cubilia suscipit placerat himenaeos. 
+                Himenaeos vel et; curabitur sit ornare quam. Hac ornare congue penatibus eleifend maecenas; tristique dui suspendisse? 
+                Molestie per adipiscing quis sit curabitur justo facilisis lorem. Curabitur pulvinar nec massa gravida curae eleifend 
+                luctus habitasse. Interdum venenatis nulla in facilisis vehicula fermentum aptent enim aliquam.
+              </p>
+              <p className="flex w-full leading-6 py-3">
+                Venenatis faucibus cras; a etiam nisi dapibus. Maximus mi in velit cubilia suscipit placerat himenaeos. 
+                Himenaeos vel et; curabitur sit ornare quam. Hac ornare congue penatibus eleifend maecenas; tristique dui suspendisse? 
+                Molestie per adipiscing quis sit curabitur justo facilisis lorem. Curabitur pulvinar nec massa gravida curae eleifend 
+                luctus habitasse. Interdum venenatis nulla in facilisis vehicula fermentum aptent enim aliquam.
+              </p>
             </div>
-            <div className="flex flex-wrap h-full items-center justify-center gap-7 md:justify-start">
-              <a className="flex" href="https://react.dev" target="_blank" rel="noopener noreferrer">
-                <Image src={ReactImg} alt="React" className="w-20 h-16"/>
-              </a>
-              <a className="flex" href="https://nextjs.org" target="_blank" rel="noopener noreferrer">
-                <Image src={NextJsImg} alt="NextJs" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer">
-                <Image src={BootstrapImg} alt="Bootstrap" className="w-20 h-16"/>
-              </a>
-              <a className="flex" href="https://tailwindcss.com" target="_blank" rel="noopener noreferrer">
-                <Image src={TailwindImg} alt="Tailwind" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://sass-lang.com" target="_blank" rel="noopener noreferrer">
-                <Image src={SassImg} alt="Sass" className="w-16 h-16"/>
-              </a>
+          </div> 
+          <div className="flex flex-col px-6 w-full h-full justify-between md:basis-1/2">
+            <div class="grid grid-cols-2 gap-4 w-full">
+              <Image 
+                src={OlympicNationalParkPic}
+                alt="OlympicNationalPark"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
+              <Image 
+                src={LEGOMandoPic}
+                alt="LEGOMando"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
+              <Image 
+                src={CrossStitchPic}
+                alt="CrossStitch"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
+              <Image 
+                src={DonutsPic}
+                alt="Donuts"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
+              <Image 
+                src={LEGOCustomPic}
+                alt="LEGOCustom"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
+              <Image 
+                src={SunsetPic}
+                alt="Sunset"
+                width={300}
+                height={300}
+                className="col-span-1 border-mediumGreen border-2 dark:border-offWhite"
+              /> 
             </div>
-            <div className="flex flex-row py-6 justify-center md:justify-start">
-              <h1 className="text-geistMonoBold text-md">back-end</h1>
-            </div>
-            <div className="flex flex-wrap h-full items-center justify-center gap-7 md:justify-start">
-              <a className="flex" href="https://www.python.org" target="_blank" rel="noopener noreferrer">
-                <Image src={PythonImg} alt="Python" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://www.djangoproject.com" target="_blank" rel="noopener noreferrer">
-                <Image src={DjangoImg} alt="Django" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://flask.palletsprojects.com/en/2.3.x/" target="_blank" rel="noopener noreferrer">
-                <Image src={FlaskImg} alt="Flask" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer">
-                <Image src={NodeJsImg} alt="NodeJs" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://jwt.io" target="_blank" rel="noopener noreferrer">
-                <Image src={JWTImg} alt="JWT" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://redux.js.org" target="_blank" rel="noopener noreferrer">
-                <Image src={ReduxJsImg} alt="ReduxJs" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer">
-                <Image src={SQLiteImg} alt="SQLite" className="w-16 h-16"/>
-              </a>
-            </div>
-            <div className="flex flex-row py-6 justify-center md:justify-start">
-              <h1 className="text-geistMonoBold text-md">analytics</h1>
-            </div>
-            <div className="flex flex-wrap h-full items-center justify-center gap-7 md:justify-start">
-              <a className="flex" href="https://www.anaconda.com" target="_blank" rel="noopener noreferrer">
-                <Image src={AnacondaImg} alt="Anaconda" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://jupyter.org" target="_blank" rel="noopener noreferrer">
-                <Image src={JupyterImg} alt="Jupyter" className="w-14 h-16"/>
-              </a>
-              <a className="flex" href="https://powerbi.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer">
-                <Image src={PowerBIImg} alt="PowerBI" className="w-16 h-16"/>
-              </a>
-            </div>
-            <div className="flex flex-row py-6 justify-center md:justify-start">
-              <h1 className="text-geistMonoBold text-md">apps</h1>
-            </div>
-            <div className="flex flex-wrap h-full items-center justify-center gap-7 md:justify-start">
-              <a className="flex" href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">
-                <Image src={VSCodeImg} alt="VSCode" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer">
-                <Image src={PyCharmImg} alt="PyCharm" className="w-16 h-16"/>
-              </a>
-              <a className="flex" href="https://helpx.adobe.com/xd/user-guide.html" target="_blank" rel="noopener noreferrer">
-                <Image src={AdobeXDImg} alt="AdobeXD" className="w-16 h-16"/>
-              </a> 
-            </div>
-          </div>    
+          </div>  
         </div>
       </section>
 
@@ -207,116 +182,154 @@ function Home() {
             <div className="p-6 text-darkBlue-100 dark:text-offWhite">
               <h1 className="font-geistBold text-4xl mt-0 pb-2 md:text-6xl">work</h1>
               <p className="text-md text-black font-geistMonoRegular leading-8 py-4">
-                Explore samples of projects I've worked on across full-stack web apps, various Python challenges, and data analysis
-                & engineering!
+                Explore samples of projects I've worked on across data engineering & analytics, full-stack web apps, and Python challenges!
               </p>
               <div className="py-3 border-mediumGreen border-b-2 dark:border-lightGreen"></div>
 
               <ProjectSet 
                 number="01"
-                title="HikingVentures Web App"
+                title="Data Engineering & Analytics Projects"
                 img1="project-analytics-1"
                 img2="project-analytics-2"
                 img3="project-analytics-3"
                 slide1="slide1"
                 slide2="slide2"
                 slide3="slide3"
-                code_url="https://github.com/gdbecker/HikingVenturesProject"
+                code_url="https://github.com/gdbecker/AnalyticsPortfolio"
                 demo_url="https://analytics-showcase-gdbecker.netlify.app"
-                description="Personal project. Lead developer and designer"
+                description="Professional client projects & personal learning"
               />
 
               <ProjectSet 
                 number="02"
-                title="Frontend Mentor Projects"
+                title="HikingVentures Web App"
                 img1="project-analytics-1"
                 img2="project-analytics-2"
                 img3="project-analytics-3"
                 slide1="slide4"
                 slide2="slide5"
                 slide3="slide6"
-                code_url="https://github.com/gdbecker/FrontendMentorProjects"
-                demo_url="https://frontend-mentor-showcase-gdbecker.netlify.app"
-                description="Challenge projects to grow in front-end development"
+                code_url="https://github.com/gdbecker/HikingVenturesProject"
+                demo_url="https://analytics-showcase-gdbecker.netlify.app"
+                description="Personal project. Lead developer and designer"
               />
 
               <ProjectSet 
                 number="03"
-                title="100 Days of Code: Python"
+                title="Frontend Mentor Projects"
                 img1="project-analytics-1"
                 img2="project-analytics-2"
                 img3="project-analytics-3"
                 slide1="slide7"
                 slide2="slide8"
                 slide3="slide9"
-                code_url="https://github.com/gdbecker/100DaysOfCodePython"
-                demo_url="https://100-days-of-code-python-gdbecker.netlify.app"
-                description="Challenge projects from Angela Yu's Udemy course"
+                code_url="https://github.com/gdbecker/FrontendMentorProjects"
+                demo_url="https://frontend-mentor-showcase-gdbecker.netlify.app"
+                description="Challenge projects to grow in front-end development"
               />
 
               <ProjectSet 
                 number="04"
-                title="Data Analytics & Engineering Projects"
+                title="100 Days of Code: Python"
                 img1="project-analytics-1"
                 img2="project-analytics-2"
                 img3="project-analytics-3"
                 slide1="slide10"
                 slide2="slide11"
                 slide3="slide12"
-                code_url="https://github.com/gdbecker/AnalyticsPortfolio"
-                demo_url="https://analytics-showcase-gdbecker.netlify.app"
-                description="Professional client projects & personal learning"
+                code_url="https://github.com/gdbecker/100DaysOfCodePython"
+                demo_url="https://100-days-of-code-python-gdbecker.netlify.app"
+                description="Challenge projects from Angela Yu's Udemy course"
               />
 
-              {/* <div className="flex flex-col h-fit py-5 justify-between md:px-10">
-                <div className="flex flex-row gap-2 items-end justify-between">
-                  <h1 className="">04</h1>
-                  <h1 className="text-lg text-themeNavy text-right">Data Analysis & Engineering Projects</h1>
-                </div>
-                <div className="flex flex-col py-2 md:flex-row">
-                  <div className="relative carousel h-full w-full pt-2">
-                    <div id="slide1" className="relative carousel-item w-full">
-                      <div className="project-analytics-1 h-60 w-full md:h-80"></div>
-                      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❮</a> 
-                        <a href="#slide2" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❯</a>
-                      </div>
-                    </div>
-                    <div id="slide2" className="relative carousel-item w-full">
-                      <div className="project-analytics-2 h-60 w-full md:h-80"></div>
-                      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❮</a> 
-                        <a href="#slide3" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❯</a>
-                      </div>
-                    </div> 
-                    <div id="slide3" className="relative carousel-item w-full">
-                      <div className="project-analytics-3 h-60 w-full md:h-80"></div>
-                      <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❮</a> 
-                        <a href="#slide1" className="btn rounded-none border-0 bg-mediumGreen hover:bg-lightGreen">❯</a>
-                      </div>
-                    </div> 
-                  </div>
-                  <div className="flex flex-row gap-2 pt-2 items-end justify-between md:flex-col md:w-24 md:pt-1 md:pl-2 md:justify-center">
-                    <button className="flex bg-darkBlue-100 p-5 text-offWhite hover:bg-mediumGreen dark:bg-offWhite dark:text-darkBlue-100 dark:hover:bg-lightGreen">
-                      <a class="" href="https://github.com/gdbecker" target="_blank" rel="noopener noreferrer">
-                        <FaGithub />
-                      </a>
-                    </button>
-                    <button className="flex bg-darkBlue-100 p-5 text-offWhite hover:bg-mediumGreen dark:bg-offWhite dark:text-darkBlue-100 dark:hover:bg-lightGreen">
-                      <a class="" href="/" target="_blank" rel="noopener noreferrer">
-                        <BiMoviePlay />
-                      </a>
-                    </button>
-                    <h2 className="flex text-right text-darkBlue-100 break-normal md:text-right md:h-44 md:[writing-mode:vertical-rl] dark:text-offWhite">
-                      Professional client projects from work
-                    </h2>
-                  </div>
-                </div>
-              </div> */}
-
+              <ProjectSet 
+                number="05"
+                title="Web Development Projects"
+                img1="project-analytics-1"
+                img2="project-analytics-2"
+                img3="project-analytics-3"
+                slide1="slide13"
+                slide2="slide14"
+                slide3="slide15"
+                code_url="https://github.com/gdbecker/WebDevelopmentProjects"
+                demo_url="https://web-development-showcase-gdbecker.netlify.app"
+                description="Personal showcase of various web development work"
+              />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="skills" className="flex flex-col p-6 md:p-20 bg-offWhite text-darkBlue-100 dark:bg-darkBlue-100 dark:text-offWhite">
+        <div className="flex flex-row w-full">
+          <div className="p-6">
+            <h1 className="font-geistBold text-4xl mt-0 pb-2 md:text-6xl">skills & certifications</h1>
+            <p className="text-md text-black font-geistMonoRegular leading-8 py-4">
+              These are current tools in my repertoire I love building with, and I always enjoy experimenting and trying out new things. 
+              Also check out certifications I've earned and keeping up to date. It's my goal to keep learning & growing and get better everyday!
+            </p>
+            <div className="py-3 border-mediumGreen border-b-2 dark:border-lightGreen"></div>
+          </div>
+        </div>
+        <div className="flex flex-col w-full justify-center md:justify-between md:flex-row">
+          <div className="flex flex-row flex-wrap px-6 h-full w-full justify-between md:flex-col">
+            <div className="flex flex-row py-6 w-full justify-center md:justify-start">
+              <h1 className="text-geistMonoBold text-md">data engineering & analytics</h1>
+            </div>
+            <div className="flex flex-wrap h-full w-full items-center justify-center gap-7 md:justify-start">
+              {data['skills'].filter((skill) => skill.type == 'analytics').map((s) => (
+                <a className="flex" href={s.link} target="_blank" rel="noopener noreferrer">
+                  <Image src={s.img} alt={s.name} width={100} height={100} className="w-16 h-16"/>
+                </a>
+              ))}
+            </div>
+            <div className="flex flex-row py-6 w-full justify-center md:justify-start">
+              <h1 className="text-geistMonoBold text-md">front-end</h1>
+            </div>
+            <div className="flex flex-wrap h-full w-full items-center justify-center gap-7 md:justify-start">
+              {data['skills'].filter((skill) => skill.type == 'frontend').map((s) => (
+                <a className="flex" href={s.link} target="_blank" rel="noopener noreferrer">
+                  <Image src={s.img} alt={s.name} width={100} height={100} className="w-16 h-16"/>
+                </a>
+              ))}
+            </div>
+            <div className="flex flex-row py-6 w-full justify-center md:justify-start">
+              <h1 className="text-geistMonoBold text-md">back-end</h1>
+            </div>
+            <div className="flex flex-wrap h-full w-full items-center justify-center gap-7 md:justify-start">
+              {data['skills'].filter((skill) => skill.type == 'backend').map((s) => (
+                <a className="flex" href={s.link} target="_blank" rel="noopener noreferrer">
+                  <Image src={s.img} alt={s.name} width={100} height={100} className="w-16 h-16"/>
+                </a>
+              ))}
+            </div>
+            <div className="flex flex-row py-6 w-full justify-center md:justify-start">
+              <h1 className="text-geistMonoBold text-md">apps</h1>
+            </div>
+            <div className="flex flex-wrap h-full w-full items-center justify-center gap-7 md:justify-start">
+              {data['skills'].filter((skill) => skill.type == 'apps').map((s) => (
+                <a className="flex" href={s.link} target="_blank" rel="noopener noreferrer">
+                  <Image src={s.img} alt={s.name} width={100} height={100} className="w-16 h-16"/>
+                </a>
+              ))}
+            </div>
+          </div>
+          <div className="px-6">
+            <div className="py-3 my-6 border-mediumGreen border-b-2 dark:border-lightGreen md:hidden"></div>
+          </div>
+          <div className="flex flex-wrap px-6 h-full w-full justify-between overflow-hidden md:flex-col">
+            {data['certifications'].map((c) => (
+              <div className="flex flex-row w-full py-6 justify-between items-center">
+                <Image src={c.img} alt={c.type} width={100} height={100} className="w-16 h-16"/>
+                <div className="flex-col justify-end">
+                  <a className="" href={c.link} target="_blank" rel="noopener noreferrer">
+                    <h1 className="text-geistMonoBold font-bold text-md text-right hover:text-mediumGreen dark:hover:text-lightGreen">{c.name}</h1>
+                  </a> 
+                  <h2 className="text-geistMonoBold text-md text-right">Earned {c.date}</h2>
+                </div>
+              </div>
+            ))}
+          </div>   
         </div>
       </section>
 
